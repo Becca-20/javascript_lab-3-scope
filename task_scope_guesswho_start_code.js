@@ -69,39 +69,40 @@
 
 // GUESS 4 ///////////////////
 
-let firstName = "Gail";
+// let firstName = "Gail";
 
-if ( firstName === "Gail"){
-    let firstName = "Ashley";
-}
+// if ( firstName === "Gail"){
+//     let firstName = "Ashley";
+// }
 
-const guessWho = function(){
-    return `Guess Who is ${firstName}`
-}
+// const guessWho = function(){
+//     return `Guess Who is ${firstName}`
+// }
 
-const finalAnswer = guessWho();
-console.log(finalAnswer);
-// my guess: Gail
+// const finalAnswer = guessWho();
+// console.log(finalAnswer);
+// // my guess: Gail
 
 // GUESS 5 ///////////////////
 
-// const guess = {
-//     hair_colour: "blonde",
-//     eye_colour: "brown",
-//     hat: false,
-//     glasses: false,
-//     firstName: "Jennifer"
-// }
+const guess = {
+    hair_colour: "blonde",
+    eye_colour: "brown",
+    hat: false,
+    glasses: false,
+    firstName: "Jennifer"
+}
 
-// const changeGuess = function(){
-//     guess = {
-//         hair_colour: "blonde",
-//         eye_colour: "blue",
-//         hat: false,
-//         glasses: false,
-//         firstName: "Kyle"
-//     }
-// }
+const changeGuess = function(){
+    guess = {
+        hair_colour: "blonde",
+        eye_colour: "blue",
+        hat: false,
+        glasses: false,
+        firstName: "Kyle"
+    }
+}
 
-// changeGuess();
-// console.log(`Guess Who is ${guess.firstName}`);
+changeGuess();
+console.log(`Guess Who is ${guess.firstName}`);
+// won't run as we are trying to reassign a constant variable which isn't allowed
