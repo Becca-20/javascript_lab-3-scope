@@ -13,93 +13,93 @@ const guessWho = function(){
 
 const finalAnswer = guessWho();
 console.log(finalAnswer);
+// my guess: Joseph
+
+// // GUESS 2 ///////////////////
+
+// let firstName = "Donna";
+
+// const guessWho = function(){
+//     const glasses = false;
+//     let firstName = "Liz";
+//     return `Guess Who is ${firstName}.`;
+// }
+
+// const guess1 = guessWho();
+// console.log("guess1: ", guess1);
+
+// const guess2 = `Guess Who is ${firstName}`;
+// console.log("guess2: ", guess2);
 
 
-// GUESS 2 ///////////////////
+// // GUESS 3 ///////////////////
 
-let firstName = "Donna";
+// const guess = {
+//     hair_colour: "black",
+//     eye_colour: "brown",
+//     hat: false,
+//     glasses: false,
+//     firstName: "Andy"
+// }
 
-const guessWho = function(){
-    const glasses = false;
-    let firstName = "Liz";
-    return `Guess Who is ${firstName}.`;
-}
+// const changeHat = function(){
+//     guess.hat = !guess.hat;
+// }
 
-const guess1 = guessWho();
-console.log("guess1: ", guess1);
+// const changeGuess = function(newName){
+//     guess.firstName = newName;
+// }
 
-const guess2 = `Guess Who is ${firstName}`;
-console.log("guess2: ", guess2);
+// const guessWho = function(){
+//     return `Guess Who is ${guess.firstName}`
+// }
 
+// changeHat();
 
-// GUESS 3 ///////////////////
+// if(guess.hat){
+//     changeGuess("Chris");
+// }
 
-const guess = {
-    hair_colour: "black",
-    eye_colour: "brown",
-    hat: false,
-    glasses: false,
-    firstName: "Andy"
-}
-
-const changeHat = function(){
-    guess.hat = !guess.hat;
-}
-
-const changeGuess = function(newName){
-    guess.firstName = newName;
-}
-
-const guessWho = function(){
-    return `Guess Who is ${guess.firstName}`
-}
-
-changeHat();
-
-if(guess.hat){
-    changeGuess("Chris");
-}
-
-const finalAnswer = guessWho();
-console.log(finalAnswer);
+// const finalAnswer = guessWho();
+// console.log(finalAnswer);
 
 
-// GUESS 4 ///////////////////
+// // GUESS 4 ///////////////////
 
-let firstName = "Gail";
+// let firstName = "Gail";
 
-if ( firstName === "Gail"){
-    let firstName = "Ashley";
-}
+// if ( firstName === "Gail"){
+//     let firstName = "Ashley";
+// }
 
-const guessWho = function(){
-    return `Guess Who is ${firstName}`
-}
+// const guessWho = function(){
+//     return `Guess Who is ${firstName}`
+// }
 
-const finalAnswer = guessWho();
-console.log(finalAnswer);
+// const finalAnswer = guessWho();
+// console.log(finalAnswer);
 
 
-// GUESS 5 ///////////////////
+// // GUESS 5 ///////////////////
 
-const guess = {
-    hair_colour: "blonde",
-    eye_colour: "brown",
-    hat: false,
-    glasses: false,
-    firstName: "Jennifer"
-}
+// const guess = {
+//     hair_colour: "blonde",
+//     eye_colour: "brown",
+//     hat: false,
+//     glasses: false,
+//     firstName: "Jennifer"
+// }
 
-const changeGuess = function(){
-    guess = {
-        hair_colour: "blonde",
-        eye_colour: "blue",
-        hat: false,
-        glasses: false,
-        firstName: "Kyle"
-    }
-}
+// const changeGuess = function(){
+//     guess = {
+//         hair_colour: "blonde",
+//         eye_colour: "blue",
+//         hat: false,
+//         glasses: false,
+//         firstName: "Kyle"
+//     }
+// }
 
-changeGuess();
-console.log(`Guess Who is ${guess.firstName}`);
+// changeGuess();
+// console.log(`Guess Who is ${guess.firstName}`);
 
